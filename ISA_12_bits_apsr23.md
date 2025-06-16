@@ -178,15 +178,7 @@ Imediatos de ±4 significam que cada *branch* cobre até sete instruções adian
 
 ---
 
-## 10 · Impacto de Design (HW × SW)
-
-- **ALU simples**: apenas operações básicas; `SLTU` acrescenta comparador unsigned.  
-- **Controle**: 3 bits de opcode → decodificação direta.  
-- **Software**: ~1,4 × mais instruções que RV32I, porém binário 3 × menor.
-
----
-
-## 11 · Exemplo de `BNE` longo (> ±4)
+## 10 · Exemplo de `BNE` longo (> ±4)
 
 ```asm
         BEQ r2, r3, +1
