@@ -136,7 +136,7 @@ Imm[2:0]  sext(Imm)
 
 ---
 
-## 8 · Branches “à la RISC‑V”
+## 8 · Branches Ajustes
 
 ### 8.1 Resumo do RV32I B‑Type
 
@@ -196,10 +196,3 @@ Imediatos de ±4 significam que cada *branch* cobre até sete instruções adian
         JR   r6
 ```
 
----
-
-## 12 · Histórico de Revisões
-
-| Data        | Versão | Principais mudanças |
-| ----------- | ------ | ------------------- |
-| 16 jun 2025 | 1.0    | Renomeada para ISA 12 bits; ajustes de formatação e clareza. |
